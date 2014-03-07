@@ -1,0 +1,10 @@
+#msgid {
+  height: 300px;
+  width: 300px;
+  background: #eee;
+  position: absolute;
+  
+  margin: -150px 0 0 -150px;
+  left: 50%;
+  top: 50%;
+}
