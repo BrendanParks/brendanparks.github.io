@@ -1,23 +1,11 @@
-html {
-
-
-
-}
-
 body {
-
 	margin: 0% 15% 15% 15%;
-
 }
-
-/*Color themes*/
-
 
 a:link {color:white;}
 a:visited {color:white;}
 a:hover {color:white;}
 a:active {color:white;}
-
 
 .circleify {
 	width: 300px;
@@ -58,7 +46,6 @@ a + a {
 	overflow:hidden;
 	font-size: 100%;
 	line-height:200%;
-
 }
 
 #mainbody {
@@ -71,6 +58,12 @@ a + a {
 
 #mainlinks {
  text-align: center;
+}
+
+#audiomp3 {
+	width: 60%;
+	display: table;
+  margin: 0 auto;
 }
 
 h1 {
