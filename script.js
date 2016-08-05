@@ -6,8 +6,8 @@ audio.style.width="100%";
 
 document.getElementById("audiomp3").appendChild(audio);
 
-var audioContext = new webkitAudioContext();
-var analyser = context.createAnalyser();
+var audioContext = new AudioContext();
+var analyser = audioContext.createAnalyser();
 analyser.fftSize = 2048;
 var bufLen = analyser.fftSize;
 var dataArray = new Uint8Array(bufLen);
@@ -15,17 +15,13 @@ var dataArray = new Uint8Array(bufLen);
 // Wait for window.onload to fire. See crbug.com/112368
 window.addEventListener('load', function(e) {
   // Our <audio> element will be the audio source.
-  var source = context.createMediaElementSource(audio);
+  var source = audioContext.createMediaElementSource(audio);
   source.connect(analyser);
-  analyser.connect(context.destination);
-    
+  analyser.connect(audioContext.destination);
+
   var loopframe = function() {
       window.webkitRequestAnimationFrame(loopframe);
       analyser.getByteTimeDomainData(dataArray);
-      
-
-    
-  
   };
 
   // ...call requestAnimationFrame() and render the analyser's output to canvas.

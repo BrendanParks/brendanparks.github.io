@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	
+
 	margin: 0% 15% 15% 15%;
 
 }
@@ -28,13 +28,9 @@ a:active {color:white;}
 }
 
 .themeDefault {
-  
-  
-  
-    font-family: 'Roboto', 'sans-serif';
-    /*background-color: #3399FF;*/
-    background-color: #7DACCB;
-	text-align: center;  
+  font-family: 'Roboto', 'sans-serif';
+  background-color: #7DACCB;
+	text-align: center;
 	color: white;
   	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
 }
@@ -51,65 +47,6 @@ a:active {color:white;}
   background-color: transparent;
 }
 
-.themeTwo {
-    background-color: #324C57;
-	color: white;
-  	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
-}
-
-.themeThree {
-    background-color: #1A4C76;
-	color: white;
-  	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
-}
-
-.themeFour {
-    background-color: #D88432;
-	color: white;
-  	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
-}
-
-.themeFive {
-    background-color: #3E2941;
-	color: white;
-  	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
-}
-/*End color themes*/
-
-
-
-
-
-#banner-topDEPRECATED {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width: 100%;
-	height: 200%;
-	background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 255%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(5%,rgba(255,255,255,0)), color-stop(255%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 5%,rgba(255,255,255,0) 255%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 5%,rgba(255,255,255,0) 255%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 5%,rgba(255,255,255,0) 255%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 5%,rgba(255,255,255,0) 255%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#00e5e5e5',GradientType=0 ); /* IE6-9 */
-
-}
-
-
-#msgid {
-  height: 300px;
-  width: 300px;
-  background: #eee;
-  position: absolute;
-  
-  margin: -150px 150px 150px -150px;
-  left: 50%;
-  top: 50%;
-
-  background-color:grey;
-}
-
 a + a {
   padding-left: 20px;
 }
@@ -118,14 +55,14 @@ a + a {
 	margin-top:0px;
 	position: relative;
 	width: 100%;
-	overflow:hidden; 
+	overflow:hidden;
 	font-size: 100%;
 	line-height:200%;
 
 }
 
 #mainbody {
-    padding: 0px;
+  padding: 0px;
 	margin-top:0px;
 	margin-bottom:0px;
 	margin-right:0px;
@@ -133,19 +70,10 @@ a + a {
 }
 
 #mainlinks {
- text-align: center;   
+ text-align: center;
 }
 
-/* Text styles */
-
-
-
-
-
-h1 { 
+h1 {
 	font-size:300%;
-}
-
-h2 { 
-  /* font-family: 'Playfair Display SC', 'serif'; */
+	line-height: 100%;
 }
